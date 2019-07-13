@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4412F8222D83A10003718DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4412F8122D83A10003718DA /* AppDelegate.swift */; };
+		A4412F8422D83A10003718DA /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4412F8322D83A10003718DA /* MainVC.swift */; };
+		A4412F8722D83A10003718DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4412F8522D83A10003718DA /* Main.storyboard */; };
+		A4412F8922D83A14003718DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4412F8822D83A14003718DA /* Assets.xcassets */; };
+		A4412F8C22D83A14003718DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4412F8A22D83A14003718DA /* LaunchScreen.storyboard */; };
+		A4412F9A22D85E8B003718DA /* LoglabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4412F9922D85E8B003718DA /* LoglabelCell.swift */; };
+		A4412F9E22D85EC0003718DA /* LogimageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4412F9D22D85EC0003718DA /* LogimageCell.swift */; };
+		A4412FA022D867E2003718DA /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4412F9F22D867E2003718DA /* ImageCell.swift */; };
+		A4412FA222D875B0003718DA /* LabellogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4412FA122D875B0003718DA /* LabellogCell.swift */; };
+		A4412FA422D87A97003718DA /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4412FA322D87A97003718DA /* ProductCell.swift */; };
+		A4412FA722D88AF2003718DA /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4412FA622D88AF2003718DA /* Product.swift */; };
+		A4412FA922D88B02003718DA /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4412FA822D88B02003718DA /* Shop.swift */; };
+		A4412FAC22D8D789003718DA /* ShopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4412FAB22D8D789003718DA /* ShopVC.swift */; };
+		A4412FAE22D8D7B7003718DA /* ShopbiglogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4412FAD22D8D7B7003718DA /* ShopbiglogCell.swift */; };
+		A4412FB022D8D7CF003718DA /* ShopproductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4412FAF22D8D7CF003718DA /* ShopproductCell.swift */; };
+		A4412FB422D8E78C003718DA /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4412FB322D8E78C003718DA /* ProductVC.swift */; };
+		A4412FB822D8F02A003718DA /* ProductdetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4412FB722D8F02A003718DA /* ProductdetailCell.swift */; };
+		A4412FBE22D8F2DC003718DA /* PcontentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4412FBD22D8F2DC003718DA /* PcontentCell.swift */; };
+		A4412FC022D955A0003718DA /* BarcodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4412FBF22D9559F003718DA /* BarcodeVC.swift */; };
+		A4412FCC22D9839C003718DA /* Code-39-Logitogo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4412FCB22D9839C003718DA /* Code-39-Logitogo.ttf */; };
+		A4412FCE22D983A9003718DA /* Code39-hoch-Logitogo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4412FCD22D983A9003718DA /* Code39-hoch-Logitogo.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A4412F7E22D83A10003718DA /* Hahago.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hahago.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4412F8122D83A10003718DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4412F8322D83A10003718DA /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		A4412F8622D83A10003718DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4412F8822D83A14003718DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4412F8B22D83A14003718DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4412F8D22D83A14003718DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4412F9922D85E8B003718DA /* LoglabelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoglabelCell.swift; sourceTree = "<group>"; };
+		A4412F9D22D85EC0003718DA /* LogimageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogimageCell.swift; sourceTree = "<group>"; };
+		A4412F9F22D867E2003718DA /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		A4412FA122D875B0003718DA /* LabellogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabellogCell.swift; sourceTree = "<group>"; };
+		A4412FA322D87A97003718DA /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		A4412FA622D88AF2003718DA /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		A4412FA822D88B02003718DA /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		A4412FAB22D8D789003718DA /* ShopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopVC.swift; sourceTree = "<group>"; };
+		A4412FAD22D8D7B7003718DA /* ShopbiglogCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopbiglogCell.swift; sourceTree = "<group>"; };
+		A4412FAF22D8D7CF003718DA /* ShopproductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopproductCell.swift; sourceTree = "<group>"; };
+		A4412FB322D8E78C003718DA /* ProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
+		A4412FB722D8F02A003718DA /* ProductdetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductdetailCell.swift; sourceTree = "<group>"; };
+		A4412FBD22D8F2DC003718DA /* PcontentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PcontentCell.swift; sourceTree = "<group>"; };
+		A4412FBF22D9559F003718DA /* BarcodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeVC.swift; sourceTree = "<group>"; };
+		A4412FCB22D9839C003718DA /* Code-39-Logitogo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Code-39-Logitogo.ttf"; path = "../../../Downloads/code/Code-39-Logitogo.ttf"; sourceTree = "<group>"; };
+		A4412FCD22D983A9003718DA /* Code39-hoch-Logitogo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Code39-hoch-Logitogo.ttf"; path = "../../../Downloads/code/Code39-hoch-Logitogo.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4412F7B22D83A10003718DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4412F7522D83A10003718DA = {
+			isa = PBXGroup;
+			children = (
+				A4412F8022D83A10003718DA /* Hahago */,
+				A4412F7F22D83A10003718DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4412F7F22D83A10003718DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4412F7E22D83A10003718DA /* Hahago.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4412F8022D83A10003718DA /* Hahago */ = {
+			isa = PBXGroup;
+			children = (
+				A4412F8122D83A10003718DA /* AppDelegate.swift */,
+				A4412FCB22D9839C003718DA /* Code-39-Logitogo.ttf */,
+				A4412FCD22D983A9003718DA /* Code39-hoch-Logitogo.ttf */,
+				A4412F8322D83A10003718DA /* MainVC.swift */,
+				A4412F8522D83A10003718DA /* Main.storyboard */,
+				A4412F9922D85E8B003718DA /* LoglabelCell.swift */,
+				A4412F9D22D85EC0003718DA /* LogimageCell.swift */,
+				A4412F9F22D867E2003718DA /* ImageCell.swift */,
+				A4412FA122D875B0003718DA /* LabellogCell.swift */,
+				A4412FA322D87A97003718DA /* ProductCell.swift */,
+				A4412FB222D8E75C003718DA /* product */,
+				A4412FAA22D8D75E003718DA /* shop */,
+				A4412FA522D87EDB003718DA /* class */,
+				A4412F8822D83A14003718DA /* Assets.xcassets */,
+				A4412F8A22D83A14003718DA /* LaunchScreen.storyboard */,
+				A4412F8D22D83A14003718DA /* Info.plist */,
+			);
+			path = Hahago;
+			sourceTree = "<group>";
+		};
+		A4412FA522D87EDB003718DA /* class */ = {
+			isa = PBXGroup;
+			children = (
+				A4412FA622D88AF2003718DA /* Product.swift */,
+				A4412FA822D88B02003718DA /* Shop.swift */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		A4412FAA22D8D75E003718DA /* shop */ = {
+			isa = PBXGroup;
+			children = (
+				A4412FAB22D8D789003718DA /* ShopVC.swift */,
+				A4412FAD22D8D7B7003718DA /* ShopbiglogCell.swift */,
+				A4412FAF22D8D7CF003718DA /* ShopproductCell.swift */,
+			);
+			path = shop;
+			sourceTree = "<group>";
+		};
+		A4412FB222D8E75C003718DA /* product */ = {
+			isa = PBXGroup;
+			children = (
+				A4412FB322D8E78C003718DA /* ProductVC.swift */,
+				A4412FBF22D9559F003718DA /* BarcodeVC.swift */,
+				A4412FB722D8F02A003718DA /* ProductdetailCell.swift */,
+				A4412FBD22D8F2DC003718DA /* PcontentCell.swift */,
+			);
+			path = product;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4412F7D22D83A10003718DA /* Hahago */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4412F9022D83A14003718DA /* Build configuration list for PBXNativeTarget "Hahago" */;
+			buildPhases = (
+				A4412F7A22D83A10003718DA /* Sources */,
+				A4412F7B22D83A10003718DA /* Frameworks */,
+				A4412F7C22D83A10003718DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hahago;
+			productName = Hahago;
+			productReference = A4412F7E22D83A10003718DA /* Hahago.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4412F7622D83A10003718DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = sun;
+				TargetAttributes = {
+					A4412F7D22D83A10003718DA = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A4412F7922D83A10003718DA /* Build configuration list for PBXProject "Hahago" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4412F7522D83A10003718DA;
+			productRefGroup = A4412F7F22D83A10003718DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4412F7D22D83A10003718DA /* Hahago */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4412F7C22D83A10003718DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4412FCE22D983A9003718DA /* Code39-hoch-Logitogo.ttf in Resources */,
+				A4412F8C22D83A14003718DA /* LaunchScreen.storyboard in Resources */,
+				A4412FCC22D9839C003718DA /* Code-39-Logitogo.ttf in Resources */,
+				A4412F8922D83A14003718DA /* Assets.xcassets in Resources */,
+				A4412F8722D83A10003718DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4412F7A22D83A10003718DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4412FAC22D8D789003718DA /* ShopVC.swift in Sources */,
+				A4412FB422D8E78C003718DA /* ProductVC.swift in Sources */,
+				A4412F9E22D85EC0003718DA /* LogimageCell.swift in Sources */,
+				A4412FC022D955A0003718DA /* BarcodeVC.swift in Sources */,
+				A4412FA722D88AF2003718DA /* Product.swift in Sources */,
+				A4412FBE22D8F2DC003718DA /* PcontentCell.swift in Sources */,
+				A4412FB822D8F02A003718DA /* ProductdetailCell.swift in Sources */,
+				A4412F8422D83A10003718DA /* MainVC.swift in Sources */,
+				A4412F9A22D85E8B003718DA /* LoglabelCell.swift in Sources */,
+				A4412F8222D83A10003718DA /* AppDelegate.swift in Sources */,
+				A4412FA022D867E2003718DA /* ImageCell.swift in Sources */,
+				A4412FA922D88B02003718DA /* Shop.swift in Sources */,
+				A4412FA422D87A97003718DA /* ProductCell.swift in Sources */,
+				A4412FA222D875B0003718DA /* LabellogCell.swift in Sources */,
+				A4412FAE22D8D7B7003718DA /* ShopbiglogCell.swift in Sources */,
+				A4412FB022D8D7CF003718DA /* ShopproductCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4412F8522D83A10003718DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4412F8622D83A10003718DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4412F8A22D83A14003718DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4412F8B22D83A14003718DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4412F8E22D83A14003718DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4412F8F22D83A14003718DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4412F9122D83A14003718DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4AT2L8Y2T;
+				INFOPLIST_FILE = Hahago/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sun.text.Hahago;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4412F9222D83A14003718DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W4AT2L8Y2T;
+				INFOPLIST_FILE = Hahago/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sun.text.Hahago;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4412F7922D83A10003718DA /* Build configuration list for PBXProject "Hahago" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4412F8E22D83A14003718DA /* Debug */,
+				A4412F8F22D83A14003718DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4412F9022D83A14003718DA /* Build configuration list for PBXNativeTarget "Hahago" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4412F9122D83A14003718DA /* Debug */,
+				A4412F9222D83A14003718DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4412F7622D83A10003718DA /* Project object */;
+}
