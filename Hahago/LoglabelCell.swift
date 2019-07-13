@@ -15,26 +15,18 @@ class LoglabelCell: UITableViewCell ,UICollectionViewDelegate , UICollectionView
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collection.dequeueReusableCell(withReuseIdentifier: "LabellogCell", for: indexPath) as! LabellogCell
-        cell.label.textColor = .black
-        if indexPath.row == 0 {
+        if indexPath.row == i {
             let color = UIColor(displayP3Red: 8/255, green: 170/255, blue: 1, alpha: 1)
             cell.label.textColor = color
+        }else{
+            cell.label.textColor = .black
         }
         cell.label.text = lables[indexPath.row]
         
         return cell
     }
+    
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        for i in 0..<lables.count{
-           let indexpath = IndexPath(row: i, section: 0)
-            if i == indexPath.item{
-                continue
-            }
-            let cell = collectionView.cellForItem(at: indexpath) as! LabellogCell
-            cell.label.textColor = .black
-        }
-        
-        let color = UIColor(displayP3Red: 8/255, green: 170/255, blue: 1, alpha: 1)
         if segmented == 0 {
             shops = allshops
         }else if segmented == 1{
@@ -42,17 +34,16 @@ class LoglabelCell: UITableViewCell ,UICollectionViewDelegate , UICollectionView
         }else{
             shops = nearshops
         }
-         let cell = collectionView.cellForItem(at: indexPath) as! LabellogCell
         switch lables[indexPath.item] {
            
         case "全部":
-            
-            cell.label.textColor = color
+            i=indexPath.item
+            collectionView.reloadData()
             completionHandler!(shops)
             break
         case "餐飲":
-            
-            cell.label.textColor = color
+            i=indexPath.item
+            collectionView.reloadData()
             var showshops = [Shop]()
             for shop in shops{
                 if shop.label == "# 餐飲"{
@@ -62,8 +53,8 @@ class LoglabelCell: UITableViewCell ,UICollectionViewDelegate , UICollectionView
             completionHandler!(showshops)
             break
         case "運動戶外":
-            
-            cell.label.textColor = color
+            i=indexPath.item
+            collectionView.reloadData()
             var showshops = [Shop]()
             for shop in shops{
                 if shop.label == "# 運動戶外"{
@@ -73,8 +64,8 @@ class LoglabelCell: UITableViewCell ,UICollectionViewDelegate , UICollectionView
             completionHandler!(showshops)
             break
         case "生活休閒":
-            
-            cell.label.textColor = color
+            i=indexPath.item
+            collectionView.reloadData()
             var showshops = [Shop]()
             for shop in shops{
                 if shop.label == "# 生活休閒"{
@@ -84,8 +75,8 @@ class LoglabelCell: UITableViewCell ,UICollectionViewDelegate , UICollectionView
             completionHandler!(showshops)
             break
         case "待分類":
-            
-            cell.label.textColor = color
+            i=indexPath.item
+            collectionView.reloadData()
             var showshops = [Shop]()
             for shop in shops{
                 if shop.label == "# 待分類"{
@@ -98,6 +89,7 @@ class LoglabelCell: UITableViewCell ,UICollectionViewDelegate , UICollectionView
             break
         }
     }
+    var i = 0
     var lables = [String]()
     var shops = [Shop]()
     var segmented = 0

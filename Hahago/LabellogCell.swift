@@ -9,6 +9,5 @@
 import UIKit
 
 class LabellogCell: UICollectionViewCell {
-    
     @IBOutlet weak var label: UILabel!
 }

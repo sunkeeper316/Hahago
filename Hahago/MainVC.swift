@@ -32,6 +32,7 @@ class MainVC: UIViewController ,UITableViewDelegate , UITableViewDataSource{
         if tableView == logtableview {
             if indexPath.row == 0 {
                 let cell = logtableview.dequeueReusableCell(withIdentifier: "LoglabelCell") as! LoglabelCell
+                
                 cell.lables = labels
                 cell.segmented = segmented.selectedSegmentIndex
                 cell.completionHandler = {(shops) in
@@ -39,7 +40,6 @@ class MainVC: UIViewController ,UITableViewDelegate , UITableViewDataSource{
                     self.logtableview.reloadData()
                     self.tableview.reloadData()
                 }
-//                cell.collection.reloadData()
                 
                 return cell
                 
@@ -88,8 +88,10 @@ class MainVC: UIViewController ,UITableViewDelegate , UITableViewDataSource{
         let color = UIColor(displayP3Red: 8/255, green: 170/255, blue: 1, alpha: 1)
         segmented.setTitleTextAttributes([NSAttributedString.Key.foregroundColor:UIColor.black], for: UIControl.State.normal)
         segmented.setTitleTextAttributes([NSAttributedString.Key.foregroundColor:color], for: UIControl.State.selected)
+        
         // Do any additional setup after loading the view.
     }
+
 
     @IBAction func segmented(_ sender: UISegmentedControl) {
         let selectedSegmentIndex = sender.selectedSegmentIndex
@@ -111,6 +113,7 @@ class MainVC: UIViewController ,UITableViewDelegate , UITableViewDataSource{
         default:
             break
         }
+        cell.i = 0
         cell.collection.reloadData()
         logtableview.reloadData()
         tableview.reloadData()
